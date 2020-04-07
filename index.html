@@ -86,7 +86,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	
 </style>
 <script type="text/javascript">
-			var back_redirect_back_link = 'https://vivasemcelulite.github.io/197-2/';
+			var back_redirect_back_link = 'https://vivasemcelulite.github.io/197/';
 
 			history.pushState({},"",location.href);
 		    history.pushState({},"",location.href);
@@ -98,7 +98,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		    };
 </script>
 <script type="text/javascript">
-			var back_redirect_back_link = 'https://vivasemcelulite.github.io/197-2/';
+			var back_redirect_back_link = 'https://vivasemcelulite.github.io/197/';
 
 			history.pushState({},"",location.href);
 		    history.pushState({},"",location.href);
@@ -128,7 +128,26 @@ var url = data['src'];
         $('.custom-url').attr('href', "https://go.perfectpay.com.br/PPU38CK52QI?split=12&" + query);
 });
 	</script>
+<script type="text/javascript">
+  $(function(){
+    var includes = $('[data-include]');
+    jQuery.each(includes, function(){
+      var file = '' + $(this).data('include') + '.html';
+      $(this).load(file);
+    });
+  });
 
+    function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+
+</script>
+
+
+ <center><iframe class="fbcom" src="https://vivasemcelulite.com/comentario/comentarios.html" style="
+    display: block;
+    border: none;"
+ onload="resizeIframe(this)"></iframe></center>
 
 
 
